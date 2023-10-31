@@ -42,7 +42,7 @@ const Rating = (props: propType) => {
 
   return (
     <div className="bg-veryDarkBlue h-screen w-full flex items-center justify-center">
-      <div className="rounded-2xl bg-[#212832]  p-4 md:p-8 w-[300px] md:w-[400px]">
+      <div className="rounded-3xl bg-[#212832]  p-4 md:p-8 w-[300px] md:w-[400px]">
         <div className="bg-[#262F38] rounded-full p-4 md:mb-4 inline-flex">
           <img src={star} alt="" />
         </div>

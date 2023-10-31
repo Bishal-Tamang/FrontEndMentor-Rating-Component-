@@ -7,7 +7,7 @@ interface propType {
 const ThankYou = (props: propType) => {
   return (
     <div className="bg-veryDarkBlue h-screen w-full flex items-center justify-center">
-      <div className="rounded-2xl bg-[#212832] px-5 py-12 w-[300px] md:w-[400px]">
+      <div className="rounded-3xl bg-[#212832] px-5 py-12 w-[300px] md:w-[400px]">
         <div className="w-full flex items-center justify-center">
           <img src={grafitti} alt="" />
         </div>
