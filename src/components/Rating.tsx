@@ -42,13 +42,13 @@ const Rating = (props: propType) => {
 
   return (
     <div className="bg-veryDarkBlue h-screen w-full flex items-center justify-center">
-      <div className="rounded-2xl bg-[#212832]  p-4 md:p-6 w-[300px] md:w-[400px]">
+      <div className="rounded-2xl bg-[#212832]  p-4 md:p-8 w-[300px] md:w-[400px]">
         <div className="bg-[#262F38] rounded-full p-4 md:mb-4 inline-flex">
           <img src={star} alt="" />
         </div>
 
         <div className="my-4">
-          <h1 className="font-[Overpass] text-white font-medium mb-2 text-2xl">
+          <h1 className="font-[Overpass] text-white font-medium mb-2 text-3xl">
             How did we do?
           </h1>
           <p className="font-[Overpass] text-mediumGrey">
@@ -65,7 +65,7 @@ const Rating = (props: propType) => {
                   tempScore === item.value
                     ? "bg-lightGrey text-white"
                     : "bg-[#262F38] text-mediumGrey"
-                } hover:bg-orange-500 hover:text-white`}
+                } hover:bg-orange-500 hover:text-white transition duration-500`}
               >
                 {item.value}
               </div>
@@ -74,7 +74,7 @@ const Rating = (props: propType) => {
         </div>
 
         <button
-          className="bg-orange-500 w-full rounded-3xl p-3 font-[Overpass] text-white hover:bg-white hover:text-orange-500"
+          className="bg-orange-500 w-full rounded-3xl p-3 font-[Overpass] text-white hover:bg-white hover:text-orange-500 transition duration-500"
           onClick={() => handleSubmitClick()}
         >
           SUBMIT
